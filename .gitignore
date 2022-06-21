@@ -1,0 +1,49 @@
+local.properties
+#built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+# Local overriding of feature flags
+local-flags.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea/*
+# Keep the code styles.
+!/.idea/codeStyles
+/.idea/codeStyles/*
+!/.idea/codeStyles/Project.xml
+!/.idea/codeStyles/codeStyleConfig.xml
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
+*.iml
+
+# Signing
+keystore.properties
+
+# python cache
+__pycache__
+
+
